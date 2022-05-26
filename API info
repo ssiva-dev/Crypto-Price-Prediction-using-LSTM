@@ -1,0 +1,14 @@
+Data Gathering: API – Crypto compare:
+Several Bitcoin data sets are available online to download for free. Most of them 
+provide the data related to price of Bitcoin on a minute to minute basis. However, the end goal 
+of the project is to make prediction ahead of closing price of Bitcoin. So, we will need data 
+such as closing price and Timestamp of Bitcoin for each day over period of several years. The 
+Cryptocompare API provides the Bitcoin price data set, starting from past 5 years since present 
+date. 
+This API gives access to Bitcoin exchanges and daily Bitcoin values. It allows users to 
+customize the query while using the interface to use the bitcoin historical prices. This API 
+returns the current price of any cryptocurrency and all the trading info (price, vol, open, high, 
+low etc.) for the requested pairs, In particular we choose closing price and timestamp. Get open, 
+high, low, close, volume from and volume to from the daily historical data. The values are 
+based on 00:00 GMT time. This API is accessed using following address 
+https://min-api.cryptocompare.com
